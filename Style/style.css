@@ -1,0 +1,236 @@
+body{
+    font-family: sans-serif, Verdana, Arial, Helvetica;
+    background-color: #989BA3;
+    }
+
+
+/*container som håller bild, rubrik och underrubrik i header*/
+.container{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    
+           }
+
+/*Slott bilden i header*/
+.bild{
+    height: 370px;
+    box-shadow: 0 0 25px 0 black;
+     }
+
+/*top-left text, alltså rubrik i header*/
+.top-left{
+    color: white;
+    text-shadow: 2px 3px black;
+    font-size:70px;
+    font-family: Georgia, "Times New Roman";
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    border: none;
+    
+}
+/*centerad text, underrubrik i header*/
+.center{
+    font-family: cursive, "Times New Roman";
+    text-shadow: 2px 2px black;
+    font-size: 24px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Inläggen första sidan*/
+
+h5{
+    margin-bottom: 25px;
+    font-size: 37px;
+    font-family: Cinzel;
+
+}
+
+p{
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+.inlagg{
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width:2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: auto;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 15px;
+  
+}
+
+
+
+/*Bild med chief*/
+
+#chief{
+    float: left;
+    
+}
+
+
+.chief-after {
+    position: relative;
+}
+
+/*Bild med mackenzie clan*/
+
+#clan{
+    height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+/*engelska 7 inlägg med java script "visa mer/mindre"*/
+
+.mercontent span{
+    display: none;
+}
+
+.merlink{
+    display: block;
+}
+
+
+
+/*vänster meny. Beskrivning om mig själv*/
+
+#olivia{
+    border: 0;
+}
+.Om {
+    background-color: #45638B;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 40px;
+
+}
+
+.namn{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: none;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    text-align: center;
+}
+.klass{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 1px;
+    padding-top: none;
+    text-align: center;
+    
+}
+
+/*FOOTER*/
+footer{
+    background-color: #45638B;
+    border: 2px solid black;
+    color: white;
+    height: 40px;
+    display: block;
+    margin-top: 35px;
+    padding: 1rem;
+}
+
+#progress{
+    float: right;
+    height: 50px;
+    
+}
+/*Dropdown knapp Meny*/
+
+.dropbtn {
+    background-color: #45638B;
+    color: white;
+    padding: 14px 51px;
+    font-size: 16px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 40px;
+    
+    
+}
+
+/* Dropdown meny, knappen*/
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    
+}
+
+/* div som ska positionera de som är i dropdown menyn*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 4px;
+    
+}
+
+/* gömnd dropdown meny*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow: auto;
+    margin-right: 40px;
+
+}
+
+/*länkar inne i menyn*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* ändrar färg på länkar i hover*/
+.dropdown-content a:hover{background-color: dimgrey}
+
+/* visa dropdown menyn med javascript */
+.show {display:block;}
+
+
